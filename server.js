@@ -17,7 +17,6 @@ app.listen(3000 , () =>{
 // Routes
 app.get('/', (req , res) => {
 
-    res.send("Hello kya haal hn ");
 } )
 
 app.post('/api/cars' , (request,response) => {
