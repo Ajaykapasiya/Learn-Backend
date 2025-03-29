@@ -33,4 +33,6 @@ mongoose
   .then(() => {
     console.log("Connection sucessful");
   })
- 
+  .catch((error) => {
+    console.log("Recevied an error");
+  });
